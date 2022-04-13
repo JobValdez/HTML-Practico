@@ -5,6 +5,7 @@ body {
     font-size: 21px;
 
     font-family: Calibri, Candara,"Segeo UI", Optima, Arial, sans-serif;
+    text-align: center;
 }
 
 h1 {
@@ -57,4 +58,30 @@ p, h1 {
 
 .important-link {
     color: yellow !important;
+}
+
+ol {
+    list-style-type:upper-alpha;
+}
+
+ul {
+    list-style-image: url() ;
+    background-color: pink;
+    padding: 50px;
+    list-style-position: inside;
+}
+
+ul li {
+    background: red;
+    margin-bottom: 15 px;
+}
+
+ol {
+    padding: 50px;
+    list-style-position: inside;
+}
+
+ol li {
+    margin-bottom: 10px;
+    color: white;
 }
