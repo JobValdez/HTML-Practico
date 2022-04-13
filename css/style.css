@@ -4,31 +4,28 @@ body {
     font-size: 21px;
 }
 
-p {
-    
-}
-
 h1 {
     font-size: 70px;
     color: #3747b3;
 }
 
-#top-section{
-
+p {
+    color: #3747b3
 }
 
-#button-section {
+/* The CSS Box Model */
 
-}
+/*
+    Margin;
+    Border;
+    Padding;    
+*/
 
-.intro {
-    font-size: 30px;
-}
+.box {
+    background: pink;
+    width: 300px;
 
-.highlight {
-    background: Yellow;
-}
-
-.accent-color{
-    color:red;
+    margin: 100px;
+    border: 10px solid red;
+    padding: 500px;
 }
