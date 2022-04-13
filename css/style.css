@@ -21,19 +21,40 @@ h2 {
 p {
     margin-top: 0;
     margin-bottom: 20px;
-
     line-height: 1.5;
-
-    font-size: 30px;
-    color: firebrick;
 }
 
 a {
-    color: black;
+    color: #7584eb;
     text-decoration: none;
 }
 
 a:hover,
 a:focus {
     color: #555;
+}
+
+p, h1 {
+    color: green;
+}
+
+.body-text {
+    background-color: #79acd1;
+    padding: 50px;
+}
+
+.body-text p {
+    color: white;
+}
+
+.body-text a {
+    color: #f7c0f4;
+}
+
+.body-text a:hover {
+    color: #DDD;
+}
+
+.important-link {
+    color: yellow !important;
 }
